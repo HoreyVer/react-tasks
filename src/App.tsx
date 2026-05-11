@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ThrottleComponent from "./components/ThrottleComponent";
 import DebounceComponent from "./components/DebounceComponent";
+import Counter from "./components/Counter";
 
 
 export default function App() {
@@ -10,6 +11,8 @@ export default function App() {
             <ThrottleComponent/>
             <div>------------------------------------------------</div>
             <DebounceComponent/>
+            <div>------------------------------------------------</div>
+            <Counter/>
         </>
     )
 }
